@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <rect width="1200" height="850" fill="#ffffff" />
+
+  <!-- Left Header: futureskills prime -->
+  <g transform="translate(80, 60)">
+    <text x="0" y="0" font-size="28" font-weight="900" fill="#0284c7">futureskills<tspan fill="#38bdf8">°</tspan></text>
+    <text x="0" y="20" font-size="16" font-weight="bold" fill="#ea580c" letter-spacing="3">prime</text>
+    <text x="0" y="36" font-size="10" fill="#64748b">A MeitY - nasscom Digital Skilling Initiative</text>
+  </g>
+
+  <!-- Center Header: Govt of India -->
+  <g transform="translate(600, 60)" text-anchor="middle">
+    <text x="0" y="0" font-size="11" font-weight="bold" fill="#475569">MINISTRY OF</text>
+    <text x="0" y="14" font-size="11" font-weight="bold" fill="#475569">ELECTRONICS &amp; INFORMATION TECHNOLOGY</text>
+    <text x="0" y="28" font-size="10" fill="#64748b">GOVERNMENT OF INDIA</text>
+  </g>
+
+  <!-- Right Header: nasscom -->
+  <g transform="translate(1120, 60)" text-anchor="end">
+    <text x="0" y="0" font-size="32" font-weight="900" fill="#b91c1c">nasscom</text>
+    <text x="0" y="20" font-size="15" font-weight="bold" fill="#475569">IT-ITeS SSC</text>
+  </g>
+
+  <!-- Title Section with Bronze Ribbon -->
+  <g transform="translate(600, 200)">
+    <!-- Bronze Medal Ribbon on left -->
+    <g transform="translate(-390, 0)">
+      <!-- Rosette -->
+      <polygon points="-45,-20 0,-45 45,-20 30,30 0,45 -30,30" fill="#92400e" />
+      <circle cx="0" cy="0" r="50" fill="#b45309" stroke="#78350f" stroke-width="2" />
+      <text x="0" y="5" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">BRONZE</text>
+      <!-- Ribbon Tails -->
+      <polygon points="-25,35 -35,110 -15,95 5,110 -5,35" fill="#92400e" />
+      <polygon points="5,35 -5,110 15,95 35,110 25,35" fill="#b45309" />
+    </g>
+
+    <!-- Bar line before and after CERTIFICATE -->
+    <rect x="-300" y="-8" width="40" height="8" fill="#78350f" />
+    <text x="0" y="10" font-size="64" font-weight="900" fill="#0f172a" text-anchor="middle" letter-spacing="4">CERTIFICATE</text>
+    <rect x="260" y="-8" width="40" height="8" fill="#78350f" />
+  </g>
+
+  <!-- Salutation & Candidate -->
+  <g transform="translate(600, 290)" text-anchor="middle">
+    <text x="0" y="0" font-size="20" fill="#64748b">This is to certify that</text>
+    <text x="0" y="52" font-size="44" font-weight="bold" fill="#0f172a">THARSAN M</text>
+    <text x="0" y="100" font-size="20" fill="#64748b">has successfully cleared the assessment on</text>
+    <text x="0" y="146" font-size="31" font-weight="bold" fill="#0f172a">Introduction to IoT and Digital Transformation</text>
+    <text x="0" y="195" font-size="18" fill="#475569">Aligned to Competency Standards developed by IT-ITeS Sector Skills Council</text>
+    <text x="0" y="222" font-size="18" fill="#475569">NASSCOM in collaboration with Industry and approved by Government.</text>
+  </g>
+
+  <!-- Left Bottom QR & Certification ID -->
+  <g transform="translate(80, 640)">
+    <rect x="0" y="0" width="70" height="70" fill="#ffffff" stroke="#0f172a" stroke-width="2" />
+    <rect x="8" y="8" width="20" height="20" fill="#0f172a" />
+    <rect x="42" y="8" width="20" height="20" fill="#0f172a" />
+    <rect x="8" y="42" width="20" height="20" fill="#0f172a" />
+    <rect x="36" y="36" width="12" height="12" fill="#0f172a" />
+
+    <text x="0" y="90" font-size="12" font-family="monospace" fill="#334155">FSP/2026/3/10263914</text>
+    <text x="0" y="125" font-size="20" font-weight="bold" fill="#0f172a">17/03/2026</text>
+    <text x="0" y="148" font-size="15" fill="#64748b">Date of issue</text>
+  </g>
+
+  <!-- Center Bottom Badge -->
+  <g transform="translate(600, 780)" text-anchor="middle">
+    <rect x="-180" y="-22" width="360" height="42" rx="6" fill="#78350f" />
+    <text x="0" y="4" font-size="16" font-weight="bold" fill="#ffffff">Bronze Category: 50% - 59% score.</text>
+    <text x="0" y="32" font-size="12" fill="#64748b">Detailed Scorecard included (58.00% Total)</text>
+  </g>
+
+  <!-- Right Bottom Signature -->
+  <g transform="translate(1120, 750)" text-anchor="end">
+    <path d="M -160,-35 Q -120,-60 -80,-25 Q -40,0 0,-40" stroke="#0f172a" stroke-width="2" fill="none" />
+    <text x="0" y="0" font-family="'Times New Roman', Times, serif" font-size="22" font-style="italic" font-weight="bold" fill="#0f172a">Dr. Abhilasha Gaur</text>
+    <text x="0" y="24" font-size="16" fill="#475569">CEO, IT-ITeS Sector Skills Council</text>
+    <text x="0" y="46" font-size="16" font-weight="bold" fill="#475569">NASSCOM</text>
+  </g>
+</svg>

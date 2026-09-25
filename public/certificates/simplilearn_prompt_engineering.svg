@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="100%" height="100%" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gold gradient for corners and badge -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <!-- Navy ribbon gradient -->
+    <linearGradient id="navyRibbon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f2942" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background White Page -->
+  <rect width="1200" height="850" fill="#ffffff" />
+
+  <!-- Outer Border Frame -->
+  <rect x="35" y="35" width="1130" height="780" fill="none" stroke="#cbd5e1" stroke-width="2.5" rx="8" />
+
+  <!-- Corner Gold Accents -->
+  <!-- Top-Left -->
+  <path d="M 50,110 L 50,60 L 110,60 L 100,75 L 65,75 L 65,100 Z" fill="url(#goldGrad)" />
+  <rect x="50" y="50" width="14" height="14" fill="#d97706" />
+  <!-- Bottom-Left -->
+  <path d="M 50,740 L 50,790 L 110,790 L 100,775 L 65,775 L 65,750 Z" fill="url(#goldGrad)" />
+  <!-- Top-Right -->
+  <path d="M 1150,110 L 1150,60 L 1090,60 L 1100,75 L 1135,75 L 1135,100 Z" fill="url(#goldGrad)" />
+  <!-- Bottom-Right -->
+  <path d="M 1150,740 L 1150,790 L 1090,790 L 1100,775 L 1135,775 L 1135,750 Z" fill="url(#goldGrad)" />
+
+  <!-- Left Header Branding: Simplilearn SkillUp -->
+  <g transform="translate(115, 110)">
+    <text x="0" y="0" font-size="34" font-weight="900" fill="#f97316">simpli<tspan fill="#334155">learn</tspan></text>
+    <line x1="165" y1="-26" x2="165" y2="6" stroke="#94a3b8" stroke-width="2.5" />
+    <text x="180" y="0" font-size="34" font-weight="900" fill="#0284c7">Skill<tspan fill="#0ea5e9">UP</tspan></text>
+  </g>
+
+  <!-- Right Side Modern Navy/Gold Graphic Accent Ribbon -->
+  <g transform="translate(900, 0)">
+    <rect x="0" y="0" width="60" height="850" fill="none" />
+    <!-- Yellow thin accent -->
+    <rect x="-15" y="340" width="14" height="260" fill="#f59e0b" />
+    <!-- Deep Navy vertical banner -->
+    <rect x="0" y="0" width="120" height="850" fill="url(#navyRibbon)" />
+    <!-- Inner cyan accent stripe -->
+    <rect x="18" y="0" width="6" height="850" fill="#38bdf8" />
+  </g>
+
+  <!-- Title Area -->
+  <g transform="translate(115, 215)">
+    <text x="0" y="0" font-size="28" font-weight="600" fill="#475569" letter-spacing="4">CERTIFICATE OF</text>
+    <text x="0" y="65" font-family="'Times New Roman', Times, serif" font-size="70" font-weight="bold" fill="#0f172a" letter-spacing="2">COMPLETION</text>
+  </g>
+
+  <!-- Recipient Name -->
+  <g transform="translate(115, 410)">
+    <text x="0" y="0" font-family="'Times New Roman', Times, serif" font-size="44" font-weight="bold" fill="#0f172a" letter-spacing="1">THARSAN M</text>
+    <line x1="0" y1="18" x2="620" y2="18" stroke="#cbd5e1" stroke-width="1.8" stroke-dasharray="3,3" />
+  </g>
+
+  <!-- Body Text -->
+  <g transform="translate(115, 480)">
+    <text x="0" y="0" font-size="20" fill="#64748b">has successfully completed the online course:</text>
+    <text x="0" y="44" font-size="31" font-weight="bold" fill="#0f172a">Introduction to Prompt Engineering</text>
+    <text x="0" y="92" font-size="19" fill="#475569">This professional has demonstrated initiative and a commitment to</text>
+    <text x="0" y="120" font-size="19" fill="#475569">deepening their skills and advancing their career. Well done!</text>
+  </g>
+
+  <!-- Background Watermark VERIFIED -->
+  <g transform="translate(420, 680) rotate(-10)" opacity="0.08">
+    <rect x="-10" y="-45" width="220" height="60" rx="6" fill="none" stroke="#0f172a" stroke-width="6" />
+    <text x="100" y="0" font-size="38" font-weight="900" fill="#0f172a" text-anchor="middle" letter-spacing="4">VERIFIED</text>
+  </g>
+
+  <!-- Footer Dates & Certificate Code -->
+  <g transform="translate(115, 735)">
+    <text x="0" y="0" font-size="21" font-weight="600" fill="#0f172a">21st June 2026</text>
+    <text x="0" y="32" font-size="21" fill="#334155">Certificate code : <tspan font-weight="bold" fill="#0f172a">10374460</tspan></text>
+  </g>
+
+  <!-- Signature -->
+  <g transform="translate(680, 710)">
+    <!-- Handwritten Signature Stroke -->
+    <path d="M 20,-30 Q 35,-65 50,-20 Q 65,5 75,-35 Q 90,-10 110,-40" stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <text x="60" y="24" font-size="18" font-weight="bold" fill="#334155" text-anchor="middle">Krishna Kumar</text>
+    <text x="60" y="48" font-size="16" fill="#64748b" text-anchor="middle">CEO, Simplilearn</text>
+  </g>
+
+  <!-- Golden Scalloped Rosette Seal on the Right -->
+  <g transform="translate(960, 650)">
+    <!-- Scalloped Gold Rosette -->
+    <circle cx="0" cy="0" r="95" fill="url(#goldGrad)" />
+    <!-- Rays -->
+    <g fill="#d97706" opacity="0.4">
+      <polygon points="0,-98 25,-85 0,-70 -25,-85" />
+      <polygon points="98,0 85,25 70,0 85,-25" />
+      <polygon points="0,98 25,85 0,70 -25,85" />
+      <polygon points="-98,0 -85,25 -70,0 -85,-25" />
+    </g>
+    <!-- Inner Ring -->
+    <circle cx="0" cy="0" r="76" fill="#ffffff" stroke="#d97706" stroke-width="3" />
+    <!-- Emblem Bars -->
+    <rect x="-24" y="-32" width="10" height="64" rx="4" fill="#f59e0b" />
+    <rect x="-4" y="-18" width="8" height="36" rx="3" fill="#0284c7" />
+    <rect x="14" y="-32" width="10" height="64" rx="4" fill="#0ea5e9" />
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1700" width="100%" height="100%" style="background-color: #ffffff; font-family: 'Times New Roman', Times, 'Liberation Serif', serif;">
+  <defs>
+    <!-- Filter for authentic ink look -->
+    <filter id="subtleInk" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background White Page -->
+  <rect width="1200" height="1700" fill="#ffffff" />
+
+  <!-- Top Logo & Company Header -->
+  <g transform="translate(360, 75)">
+    <!-- ETS Emblem Logo -->
+    <g transform="translate(0, 0)">
+      <!-- Top Wing Arch -->
+      <path d="M 65,10 C 30,10 8,30 0,52 C 22,52 45,44 65,22 C 85,44 108,52 130,52 C 122,30 100,10 65,10 Z" fill="#1b4d89" />
+      <!-- Mid Wing Feathers -->
+      <path d="M 12,58 C 34,58 54,46 65,32 C 76,46 96,58 118,58 C 106,80 86,94 65,98 C 44,94 24,80 12,58 Z" fill="#1e5fa8" />
+      <!-- Lower Shield Core -->
+      <path d="M 28,66 C 42,66 56,56 65,44 C 74,56 88,66 102,66 C 94,80 80,88 65,90 C 50,88 36,80 28,66 Z" fill="#2977c9" />
+      
+      <!-- Stars in Crest -->
+      <circle cx="52" cy="26" r="2.5" fill="#ffffff" />
+      <circle cx="65" cy="22" r="3.2" fill="#ffffff" />
+      <circle cx="78" cy="26" r="2.5" fill="#ffffff" />
+      
+      <!-- ETS Text inside Shield -->
+      <text x="65" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">ETS</text>
+      
+      <!-- White Laurel Wing Ribbons -->
+      <path d="M 42,72 Q 65,84 88,72" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round" />
+      <path d="M 48,80 Q 65,88 82,80" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" />
+    </g>
+
+    <!-- Company Name & Subtitle -->
+    <text x="155" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="bold" fill="#1b4d89" letter-spacing="0.5">Eagle-HiTech</text>
+    <text x="158" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#3578c4" letter-spacing="0.2">Softclou Private Limited</text>
+  </g>
+
+  <!-- Top Divider Line -->
+  <line x1="80" y1="205" x2="1120" y2="205" stroke="#000000" stroke-width="5" />
+
+  <!-- Document Title -->
+  <g transform="translate(600, 480)">
+    <text x="0" y="0" font-size="38" font-weight="bold" text-anchor="middle" letter-spacing="3" fill="#000000">TO WHOM IT MAY CONCERN</text>
+    <line x1="-275" y1="14" x2="275" y2="14" stroke="#000000" stroke-width="3" />
+  </g>
+
+  <!-- Main Certificate Body Content -->
+  <g font-size="31" fill="#111111" text-anchor="middle">
+    <!-- Sentence 1 -->
+    <text x="600" y="585">This is to certify that <tspan font-weight="bold">Tharsan M</tspan> (Reg.No: <tspan font-weight="bold">922523243115</tspan>) studying</text>
+    <text x="600" y="635"><tspan font-weight="bold">B Tech(AI&amp;DS)</tspan> from <tspan font-weight="bold">VSB Engineering College</tspan> has successfully completed</text>
+    <text x="600" y="685">the</text>
+    <text x="600" y="735">internship work under the domain of <tspan font-weight="bold">"Cloud Computing"</tspan> in our organization</text>
+    <text x="600" y="785">during the period of <tspan font-weight="bold">24/12/2025 to 22/01/2026</tspan>.</text>
+
+    <!-- Paragraph 2 -->
+    <text x="600" y="905">We congratulate you on your presence with us. We are confident that your</text>
+    <text x="600" y="955">contribution will take us further in our journey towards becoming world leaders.</text>
+    
+    <!-- Paragraph 3 -->
+    <text x="600" y="1015">We assure you of your support for your professional development and growth.</text>
+  </g>
+
+  <!-- Signoff & Seal Section -->
+  <g transform="translate(120, 1110)">
+    <text x="0" y="0" font-size="31" fill="#111111">With Warm &amp; Regards,</text>
+
+    <!-- Handwritten Signature Graphic -->
+    <g transform="translate(20, 30)">
+      <!-- Signature Stroke (Dark Teal / Blue Ink) -->
+      <path d="M 10,65 Q 35,-15 58,75 Q 78,-8 95,50 Q 110,22 130,58 Q 145,30 168,54 Q 190,38 210,60" 
+            stroke="#164e63" stroke-width="4.2" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#subtleInk)" />
+      <!-- Crossing / Swirl Accent -->
+      <path d="M 55,42 Q 120,38 190,40" stroke="#164e63" stroke-width="3.4" fill="none" stroke-linecap="round" filter="url(#subtleInk)" />
+      <path d="M 125,22 Q 160,70 195,46" stroke="#164e63" stroke-width="3.4" fill="none" stroke-linecap="round" filter="url(#subtleInk)" />
+    </g>
+
+    <!-- Official Stamp Seal (Circular Stamp with Soft Grey Ink) -->
+    <g transform="translate(420, 95)">
+      <!-- Outer Double Rings -->
+      <circle cx="0" cy="0" r="75" fill="none" stroke="#718096" stroke-width="2.8" opacity="0.85" />
+      <circle cx="0" cy="0" r="69" fill="none" stroke="#718096" stroke-width="1.8" opacity="0.85" />
+      
+      <!-- Circular Arc Top Text -->
+      <path id="sealUpperArc" d="M -56,0 A 56,56 0 1,1 56,0" fill="none" />
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="bold" fill="#4a5568" opacity="0.85" letter-spacing="1.6">
+        <textPath href="#sealUpperArc" startOffset="50%" text-anchor="middle">
+          EAGLE-HITECH SOFTCLOU PRIVATE
+        </textPath>
+      </text>
+
+      <!-- Circular Arc Bottom Text -->
+      <path id="sealLowerArc" d="M -56,0 A 56,56 0 0,0 56,0" fill="none" />
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="bold" fill="#4a5568" opacity="0.85" letter-spacing="2">
+        <textPath href="#sealLowerArc" startOffset="50%" text-anchor="middle">
+          ★ LIMITED ★
+        </textPath>
+      </text>
+
+      <!-- Center Inner Box & City / Pin Details -->
+      <rect x="-38" y="-20" width="76" height="40" fill="none" stroke="#718096" stroke-width="1.4" opacity="0.75" />
+      <text x="0" y="-2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="bold" fill="#4a5568" text-anchor="middle">CHENNAI</text>
+      <text x="0" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#4a5568" text-anchor="middle">600 024</text>
+    </g>
+
+    <!-- Signer Role & Company Details -->
+    <text x="0" y="195" font-size="31" fill="#111111">Senior manager</text>
+    <text x="0" y="240" font-size="31" fill="#111111">Eagle-HiTech Softclou Pvt Ltd</text>
+  </g>
+
+  <!-- Bottom Divider Line -->
+  <line x1="80" y1="1440" x2="1120" y2="1440" stroke="#000000" stroke-width="5.5" />
+
+  <!-- Footer Contact Info -->
+  <g transform="translate(1080, 1490)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#111111" text-anchor="end">
+    <text x="0" y="0">www.eaglehitechsoftclou.com</text>
+    <text x="0" y="65" letter-spacing="1">P: 6383611233</text>
+    <text x="0" y="98">S:support@eaglehitechsoftelou.com</text>
+  </g>
+</svg>

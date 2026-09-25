@@ -1,0 +1,12 @@
+services:
+  # Portfolio website (React + Vite static SPA)
+  - type: web
+    name: portfolio-website
+    runtime: static
+    buildCommand: bun install --frozen-lockfile && bun run build
+    staticPublishPath: ./dist
+    routes:
+      # SPA fallback so any path serves index.html
+      - type: rewrite
+        source: /*
+        destination: /index.html

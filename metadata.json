@@ -1,0 +1,6 @@
+{
+  "name": "Developer Portfolio",
+  "description": "Modern developer portfolio showcase with dark mode, project display, interactive resume, certifications, and profile manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

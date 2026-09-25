@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    @apply text-slate-800 dark:text-slate-100 transition-colors duration-300 min-h-screen selection:bg-slate-900 selection:text-white;
+    background-color: #f7f4e9;
+    background-size: 26px 26px;
+    background-image: 
+      linear-gradient(to right, rgba(185, 175, 145, 0.35) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(185, 175, 145, 0.35) 1px, transparent 1px);
+  }
+
+  .dark body {
+    background-color: #141620;
+    background-size: 26px 26px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  }
+}
+
+.font-handwriting {
+  font-family: 'Architects Daughter', 'Patrick Hand', 'Caveat', cursive;
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.font-mono-code {
+  font-family: 'Courier Prime', monospace;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Notebook Lined Paper Background with Red Margin Utility */
+.bg-notebook-page {
+  background-color: #f6f3eb;
+  background-image: 
+    linear-gradient(to right, transparent 52px, rgba(239, 68, 68, 0.4) 52px, rgba(239, 68, 68, 0.4) 54px, transparent 54px),
+    repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      rgba(148, 163, 184, 0.3) 28px
+    );
+}
+
+.dark .bg-notebook-page {
+  background-color: #161821;
+  background-image: 
+    linear-gradient(to right, transparent 52px, rgba(239, 68, 68, 0.25) 52px, rgba(239, 68, 68, 0.25) 54px, transparent 54px),
+    repeating-linear-gradient(
+      transparent,
+      transparent 27px,
+      rgba(255, 255, 255, 0.07) 28px
+    );
+}
+
+/* Lined Notebook Ruled Paper */
+.notebook-ruled {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 27px,
+    rgba(180, 160, 130, 0.22) 28px
+  );
+}
+
+.dark .notebook-ruled {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 27px,
+    rgba(255, 255, 255, 0.08) 28px
+  );
+}
+
+/* Realistic Paper Card Drop Shadows */
+.paper-card {
+  box-shadow: 0 4px 16px rgba(120, 100, 70, 0.09), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.dark .paper-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.paper-card-lg {
+  box-shadow: 0 12px 32px rgba(100, 80, 50, 0.12), 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.dark .paper-card-lg {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* Paper Cutout Letters Tile Effects */
+.paper-tile {
+  box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease;
+}
+
+.paper-tile:hover {
+  transform: translateY(-2px) rotate(1deg);
+}
+
+/* Torn Edge Clip Path Effect */
+.torn-edge-horizontal {
+  clip-path: polygon(
+    0% 0%, 2% 2px, 4% 0%, 6% 3px, 8% 0%, 10% 2px, 12% 0%, 14% 3px, 16% 0%, 18% 2px, 20% 0%, 
+    22% 3px, 24% 0%, 26% 2px, 28% 0%, 30% 3px, 32% 0%, 34% 2px, 36% 0%, 38% 3px, 40% 0%, 
+    42% 2px, 44% 0%, 46% 3px, 48% 0%, 50% 2px, 52% 0%, 54% 3px, 56% 0%, 58% 2px, 60% 0%, 
+    62% 3px, 64% 0%, 66% 2px, 68% 0%, 70% 3px, 72% 0%, 74% 2px, 76% 0%, 78% 3px, 80% 0%, 
+    82% 2px, 84% 0%, 86% 3px, 88% 0%, 90% 2px, 92% 0%, 94% 3px, 96% 0%, 98% 2px, 100% 0%,
+    100% 100%, 98% calc(100% - 2px), 96% 100%, 94% calc(100% - 3px), 92% 100%, 90% calc(100% - 2px),
+    88% 100%, 86% calc(100% - 3px), 84% 100%, 82% calc(100% - 2px), 80% 100%, 78% calc(100% - 3px),
+    76% 100%, 74% calc(100% - 2px), 72% 100%, 70% calc(100% - 3px), 68% 100%, 66% calc(100% - 2px),
+    64% 100%, 62% calc(100% - 3px), 60% 100%, 58% calc(100% - 2px), 56% 100%, 54% calc(100% - 3px),
+    52% 100%, 50% calc(100% - 2px), 48% 100%, 46% calc(100% - 3px), 44% 100%, 42% calc(100% - 2px),
+    40% 100%, 38% calc(100% - 3px), 36% 100%, 34% calc(100% - 2px), 32% 100%, 30% calc(100% - 3px),
+    28% 100%, 26% calc(100% - 2px), 24% 100%, 22% calc(100% - 3px), 20% 100%, 18% calc(100% - 2px),
+    16% 100%, 14% calc(100% - 3px), 12% 100%, 10% calc(100% - 2px), 8% 100%, 6% calc(100% - 3px),
+    4% 100%, 2% calc(100% - 2px), 0% 100%
+  );
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f6f3eb;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #16181f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4a373;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bc6c25;
+}
+
+
